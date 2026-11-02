@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Encrypt subscription text with AES-256-CBC; key derived from UUID (SHA-256).
-# Output: https://vevc.github.io/unikraft-deploy/?payload=<url-encoded IV:base64-ciphertext>
+# Output: https://lliuqin.github.io/unikraft-deployo/?payload=<url-encoded IV:base64-ciphertext>
 set -euo pipefail
 
 UUID="${1:?UUID is required}"
